@@ -1,0 +1,67 @@
+# Fluxograma
+## Questão 1
+### Calcule a média de 4 números inteiros dados
+```mermaid
+flowchart TD
+A([INICIO]) --> B{{'Digite 4 números'}}
+B --> C[/N1,N2,N3,N4/]
+C --> D{N1,N2,N3,N4 = int}
+D --Sim--> E[SN = N1 + N2 + N3 + N4] --> G[M = SN/2]
+G --> H{{'A Média é M'}}
+D --Não--> F{{'Os números devem ser inteiros'}} 
+F --> Z([FIM])
+
+```
+## Questão 2
+### Leia uma temperatura dada na escala Celsius (C) e imprima o equivalente em Fahrenheit
+```mermaid
+flowchart TD
+A([INICIO]) --> B{{'Digite a temperatura'}}
+B --> C[/TC/] 
+C --> E[TF = 9 * TC/5 + 32] 
+E --> F{{'Temperatura em Fahrenheit é TF'}}
+F --> Z
+Z([FIM])
+```
+## Questão 3
+### Leia uma quantidade de chuva dada em polegadas e imprima o equivalente em milímetros
+```mermaid
+flowchart TD
+A([INICIO]) --> B{{'Digite a quantidade de chuva'}}
+B --> C[/QP/]
+C --> D{QP >= 0}
+D --Sim--> E[QM = QP * 25.4]
+D --Não--> G{{'A quantidade de chuva deve ser positiva'}}
+G --> Z([FIM])
+E --> F{{'QM é a quantidade de chuva em Milímetros'}}
+F --> Z
+```
+## Questão 4
+### Leia o custo de fábrica do carro e imprimir o custo ao consumidor (O custo é a soma do custo de fábrica com a porcentagem do distribuidor e dos impostos, %D = 12% e %I = 45%)
+```mermaid
+flowchart TD
+A([INICIO]) --> B{{'Digite o custo de fábrica'}}
+B --> C[/CF/]
+C --> F{CF >= 0}
+F --Sim--> D[CC = CF + CF*1.57] 
+D --> E{{'O custo ao consumidor é CC'}}
+F --Não--> G{{'O Custo de Fábrica deve ser positivo'}}
+G --> Z([FIM])
+E --> Z
+```
+## Questão 5
+## Questão 6
+## Questão 7
+## Questão 8
+## Questão 9
+## Questão 10
+## Questão 11
+## Questão 12
+## Questão 13
+## Questão 14
+## Questão 15
+## Questão 16
+## Questão 17
+## Questão 18
+## Questão 19
+## Questão 20
