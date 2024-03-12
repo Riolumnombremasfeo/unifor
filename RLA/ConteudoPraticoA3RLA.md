@@ -83,7 +83,7 @@ F --Sim--> D{{'Digite o número de carros vendidos e o Valor da venda'}}
 F --Não--> G{{'Nome deve conter caracteres alfabéticos'}}
 G --> Z([FIM])
 D --> E[/C,V/]
-E --> H{C >= 0}
+E --> H{C,V >= 0}
 H --Sim--> I[S == 500 + 50*C + 0.05*V] 
 H --Não--> J{{'Quantidade de carros deve ser positiva'}}
 J --> Z
