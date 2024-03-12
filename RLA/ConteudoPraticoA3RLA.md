@@ -6,10 +6,11 @@ flowchart TD
 A([INICIO]) --> B{{'Digite 4 números'}}
 B --> C[/N1,N2,N3,N4/]
 C --> D{N1,N2,N3,N4 == int}
-D --Sim--> E[SN == N1 + N2 + N3 + N4] --> G[M == SN/2]
-G --> H{{'A Média é M'}}
+D --Sim--> E["M == (N1 + N2 + N3 + N4)/4"]
+E --> G{{'A Média é M'}}
 D --Não--> F{{'Os números devem ser inteiros'}} 
 F --> Z([FIM])
+G --> Z
 
 ```
 ## Questão 2
