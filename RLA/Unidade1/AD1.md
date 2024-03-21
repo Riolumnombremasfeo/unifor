@@ -147,12 +147,12 @@ Z([FIM])
 
 #### Teste de mesa (0.25 ponto)
 
-| QN | QN > 0 |"O número de aprovados é", QA| n | n válida |QA =+1 | QN =-1|  
-| -- | -- | -- | -- | -- | -- | -- | -- | -- | 
-| 3 | Verdade | 0 | 50 | Verdade | 1 | 2 | -- | -- |
-| 2 | Verdade | 1 | 67 | Verdade | 2 | 1
-| 1 | Verdade | 2 | 23 | Falso | -- | 0
-| 0 | Falso | 2 | -- | -- | -- | --
+| QN | QN > 0 | "O número de aprovados é", QA | n | n válida | QA =+1 | QN =-1 |  
+| -- | -- | -- | -- | -- | -- | -- | 
+| 3 | Verdade | 0 | 50 | Verdade | 1 | 2 | 
+| 2 | Verdade | 1 | 67 | Verdade | 2 | 1 |
+| 1 | Verdade | 2 | 23 | Falso | -- | 0 |
+| 0 | Falso | 2 | -- | -- | -- | -- |
 
 
 ### Questão 3 - Soma de um conjunto de números (1 ponto)
