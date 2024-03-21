@@ -70,7 +70,7 @@ G --> Z([FIM])
 
 ```
 1 ALGORITMO TrocaValores
-2 DECLARE a, b
+2 DECLARE a, b, C: int
 3 ESCREVA "Insira duas variáveis"
 4 LEIA a, b
 5 C <-- a
@@ -127,7 +127,7 @@ Z([FIM])
 
 ```
 1 ALGORITMO ContaAprovacoes
-2 DECLARE n, QA, QN
+2 DECLARE n, QA, QN: int
 3 INICIO
 4 ESCREVA "Insira a quantidade notas"
 5 LEIA QN
@@ -194,7 +194,7 @@ K --LOOP--> G
 
 ```
 1 ALGORITMO SomaNumeros
-2 DECLARE n, i, soma, num 
+2 DECLARE n, i, soma, num: int 
 3 INICIO
 4 ESCREVA "Digite a quantidade de números"
 5 LEIA n
@@ -264,7 +264,7 @@ I --LOOP--> E
 
 ```
 1 ALGORITMO SomaSerie
-2 DECLARE n, i, numerador, denominador: int, S, termo: real
+2 DECLARE n, i, numerador, denominador: int; S, termo: real
 3 INICIO
 4 ESCREVA "Digite o número de termos da série S: "
 5 LEIA n
