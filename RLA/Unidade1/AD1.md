@@ -264,7 +264,7 @@ I --LOOP--> E
 
 ```
 1 ALGORITMO SomaSerie
-2 DECLARE n, S, i, termo, numerador, denominador 
+2 DECLARE n, i, numerador, denominador: int, S, termo: real
 3 INICIO
 4 ESCREVA "Digite o número de termos da série S: "
 5 LEIA n
@@ -324,7 +324,7 @@ H --> I
 
 ```
 1 ALGORITMO CalcFatorial
-2 DECLARE n, fator, i
+2 DECLARE n, fator, i: int
 3 INICIO
 4 ESCREVA "Digite um numero inteiro nao-negativo:"
 5 LEIA n
@@ -389,7 +389,7 @@ I --LOOP--> E
 
 ```
 1 ALGORITMO GeraFibonacci
-2 DECLARE n, a, b, i, ta
+2 DECLARE n, a, b, i, ta: int
 3 INICIO
 4 ESCREVA "Insira o número de termos da série Fibonacci:"
 5 LEIA n 
@@ -455,7 +455,7 @@ E --> W
 
 ```
 1 ALGORITMO InverteInteiro
-2 DECLARE num, num_inv, digito: inteiro
+2 DECLARE num, num_inv, digito: int
 3 INICIO
 4 ESCREVA "Digite um número inteiro:"
 5 LEIA num
