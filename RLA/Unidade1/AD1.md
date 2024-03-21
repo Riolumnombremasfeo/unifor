@@ -256,7 +256,7 @@ J --> K([FIM])
 E --"i=0,1,2,..,n"--> F[numerador = 2 * i + 1]
 F --> G[denominador = 2 * i + 2]
 G --> H[termo = numerador / denominador]
-H --> I[S += termo]
+H --> I[S =+ termo]
 I --LOOP--> E
 ```
 
@@ -273,7 +273,7 @@ I --LOOP--> E
 8     numerador = 2 * i + 1
 9     denominador = 2 * i + 2
 10    termo = numerador / denominador
-11    S += termo
+11    S =+ termo
 12 FIM_PARA
 13 ESCREVA "Soma da série S é ", S
 14 FIM_ALGORITMO  
